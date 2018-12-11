@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+ <data>
+
+   
+
+<!--action view-->
+    <act_window
+      id="location_action"
+      name="Locations"
+      res_model="pickup.locations"
+      view_mode="kanban,tree,form"    
+
+    />
+
+
+   <!--Menu View-->
+    <menuitem
+      id="location_menu"
+      name="locations"
+      action="location_action"
+      parent=""
+      sequence="5"
+
+    />
+
+ </data>
+</odoo>
